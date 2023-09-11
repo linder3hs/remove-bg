@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function InputFile() {
   const [img, setImg] = useState<string>("");
 
-  const [file, setFile] = useState<File>();
+  const [file, setFile] = useState<any>(null);
 
   const [loading, setLoading] = useState<boolean>(false);
 
